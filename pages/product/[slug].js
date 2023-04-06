@@ -1,6 +1,5 @@
-
-
 import ProductDetailsCarousel from "@/components/ProductDetailsCarousel";
+import RelatedProduct from "@/components/RelatedProduct";
 
 import Wrapper from "@/components/Wrapper";
 import React from "react";
@@ -88,36 +87,55 @@ const ProductDetails = () => {
                 Size Selection Is Required .
               </div>
               {/* End Product Size Range */}
-{/* Add to CArt Button Start */}
-              <button className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75">Add to Cart</button>
+              {/* Add to CArt Button Start */}
+              <button className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75">
+                Add to Cart
+              </button>
               {/* Add to Cart Button End  */}
 
               {/* Adding WishList Button Start*/}
               <button className="w-full py-4 rounded-full border border-black text-lg font-medium transition-transform active:scale-95 flex items-center justify-center gap-2 hover:opacity-75 mb-10 ">
                 Wishlist
-                <IoMdHeartEmpty size={20}/>
+                <IoMdHeartEmpty size={20} />
               </button>
               {/* Adding Wishlist Button End */}
 
-             <div className="text-md mb-5">
-              feel unable from the tee box to the final putt in adesign that's pure early MJ: speed, class like visible Air and a translucent rubber sole that continue to stand the test od time. This model fuses the strut of the 1st MJ's championship with some od our best golf technology, helping you make a statement of confidence when it comes time to tame the course
-             </div>
+              <div>
+                <div className="text-lg font-bold mb-5">Product Details</div>
 
-             <div className="text-md mb-5">
-              feel unable from the tee box to the final putt in adesign that's pure early MJ: speed, class like visible Air and a translucent rubber sole that continue to stand the test od time. This model fuses the strut of the 1st MJ's championship with some od our best golf technology, helping you make a statement of confidence when it comes time to tame the course
-             </div>
+                <div className="text-md mb-5">
+                  feel unable from the tee box to the final putt in adesign
+                  that's pure early MJ: speed, class like visible Air and a
+                  translucent rubber sole that continue to stand the test od
+                  time. This model fuses the strut of the 1st MJ's championship
+                  with some od our best golf technology, helping you make a
+                  statement of confidence when it comes time to tame the course
+                </div>
 
-             <div className="text-md mb-5">
-              feel unable from the tee box to the final putt in adesign that's pure early MJ: speed, class like visible Air and a translucent rubber sole that continue to stand the test od time. This model fuses the strut of the 1st MJ's championship with some od our best golf technology, helping you make a statement of confidence when it comes time to tame the course
-             </div>
+                <div className="text-md mb-5">
+                  feel unable from the tee box to the final putt in adesign
+                  that's pure early MJ: speed, class like visible Air and a
+                  translucent rubber sole that continue to stand the test od
+                  time. This model fuses the strut of the 1st MJ's championship
+                  with some od our best golf technology, helping you make a
+                  statement of confidence when it comes time to tame the course
+                </div>
 
-
-
-
+                <div className="text-md mb-5">
+                  feel unable from the tee box to the final putt in adesign
+                  that's pure early MJ: speed, class like visible Air and a
+                  translucent rubber sole that continue to stand the test od
+                  time. This model fuses the strut of the 1st MJ's championship
+                  with some od our best golf technology, helping you make a
+                  statement of confidence when it comes time to tame the course
+                </div>
+              </div>
             </div>
           </div>
           {/* Right Column End  */}
         </div>
+
+        <RelatedProduct />
       </Wrapper>
     </div>
   );
