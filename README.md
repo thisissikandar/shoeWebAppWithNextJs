@@ -1,6 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
+
+[Live Link Of the Project](https://shoe-web-app-with-next-fuo780rm8-thisissikandar.vercel.app/)
+
+
+# or
+yarn dev
+# or
+pnpm dev
 
 First, run the development server:
 
